@@ -4,7 +4,7 @@
 Summary:	%{_class}_%{_subclass} - Gtk (Desktop) PEAR Package Manager
 Summary(pl):	%{_class}_%{_subclass} - Desktop w Gtk dla managera pakietów PEAR
 Name:		php-pear-%{_pearname}
-Version:	0.2
+Version:	0.3
 Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
