@@ -5,14 +5,13 @@ Summary:	%{_pearname} - Gtk (Desktop) PEAR Package Manager
 Summary(pl):	%{_pearname} - Desktop w Gtk dla managera pakietów PEAR
 Name:		php-pear-%{_pearname}
 Version:	0.3
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 Requires:	php-gtk
 Requires:	php-pear
-Provides:	pear(Frontend)
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
