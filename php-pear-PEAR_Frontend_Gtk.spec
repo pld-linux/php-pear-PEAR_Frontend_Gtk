@@ -8,6 +8,7 @@ Version:	0.3
 Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
+# Source0-md5:	8ea4b105ad2af5a6726515f7d341e168
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
 URL:		http://pear.php.net/
 Requires:	php-gtk
