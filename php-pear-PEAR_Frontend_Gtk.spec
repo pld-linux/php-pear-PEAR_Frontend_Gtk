@@ -6,12 +6,12 @@
 Summary:	%{_pearname} - GTK+ (Desktop) PEAR Package Manager
 Summary(pl):	%{_pearname} - Desktop w GTK+ dla managera pakietów PEAR
 Name:		php-pear-%{_pearname}
-Version:	0.3
-Release:	6
+Version:	0.4.0
+Release:	1
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	8ea4b105ad2af5a6726515f7d341e168
+# Source0-md5:	2ed87947a9fe6d09a11c0e9fc797d1cf
 URL:		http://pear.php.net/package/PEAR_Frontend_Gtk/
 Requires:	php4-gtk
 Requires:	php-pear
