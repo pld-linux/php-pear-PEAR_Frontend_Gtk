@@ -1,6 +1,8 @@
 %define		_class		PEAR
 %define		_subclass	Frontend
+%define		_status		beta
 %define		_pearname	%{_class}_%{_subclass}_Gtk
+
 Summary:	%{_pearname} - Gtk (Desktop) PEAR Package Manager
 Summary(pl):	%{_pearname} - Desktop w Gtk dla managera pakietów PEAR
 Name:		php-pear-%{_pearname}
@@ -8,8 +10,8 @@ Version:	0.3
 Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
-# Source0-md5:	8ea4b105ad2af5a6726515f7d341e168
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
+# Source0-md5:	8ea4b105ad2af5a6726515f7d341e168
 URL:		http://pear.php.net/package/PEAR_Frontend_Gtk/
 Requires:	php-gtk
 Requires:	php-pear
@@ -21,8 +23,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Desktop Interface to the PEAR Package Manager.
 
+This class has in PEAR status: %{_status}.
+
 %description -l pl
 Desktop w Gtk dla managera pakietów PEAR.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
