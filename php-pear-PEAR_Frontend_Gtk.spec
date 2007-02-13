@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}_Gtk
 
 Summary:	%{_pearname} - GTK+ (Desktop) PEAR Package Manager
-Summary(pl.UTF-8):   %{_pearname} - Desktop w GTK+ dla managera pakietów PEAR
+Summary(pl.UTF-8):	%{_pearname} - Desktop w GTK+ dla managera pakietów PEAR
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
 Release:	3
