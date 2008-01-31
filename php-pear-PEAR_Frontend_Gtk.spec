@@ -8,7 +8,7 @@ Summary:	%{_pearname} - GTK+ (Desktop) PEAR Package Manager
 Summary(pl.UTF-8):	%{_pearname} - Desktop w GTK+ dla managera pakietów PEAR
 Name:		php-pear-%{_pearname}
 Version:	0.4.0
-Release:	3
+Release:	4
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
